@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Designs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #c1e0ff; /* Set background color */
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      font-family: Arial, sans-serif;
+      background-color: #5581e9;
+      padding: 20px;
+      text-align: left;
+    }
+     
+    header a {
+      color: #FFFFFF; 
+      text-decoration-style: none; 
+      position: relative;
+      padding-right: 10px;
+    }
+    
+    header a::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 1px;
+      background-color: #385db3;
+      transform: translateX(50%);
+    }
+    
+    hr {
+      border: 4px solid solid #385db3;
+      border-top: 4px solid #385db3;
+      border-bottom: 4px solid #385db3;
+      border-radius: 7px 7px 7px 7px;
+      margin: 10px 10px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      padding: 10px 0;
+      margin-top: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 2px solid #385db3;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 15px;
+      border: 1px solid #385db3;
+      text-align: center;
+    }
+
+    th {
+      background-color: #5581e9;
+      color: #fff;
+    }
+
+    tr:nth-child(odd) td {
+      background-color: #8ba6ed;
+    }
+
+    .star {
+      color: #fdd835;
+    }
+    
+    /* Remove background color for My Skills */
+    h2 {
+      background-color: transparent; 
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="exercise-11-my-portfolio.html">Home</a>
+  <a href="skills.html">Skills</a>
+  <a href="Index.html">Exercises</a>
+  <a href="exercise-10-designs.html">Design</a>
+  <a href="exercise-11-my-portfolio.html">Portfolio</a>
+  <a href="https://www.facebook.com/chanel.pagdayunan" target="_blank" >Facebook</a>
+  <a href="contact-me.html" >Contact Me</a>
+</header>
+<hr>
+
+<h2>My Skills</h2>
+
+<div class="container">
+  <table>
+    <tr>
+      <th>Field</th>
+      <th>Stars</th>
+      <th>Field</th>
+      <th>Stars</th>
+    </tr>
+    <tr>
+      <td>Web Development</td>
+      <td><span class="star">★★★★★</span></td>
+      <td>HTML</td>
+      <td><span class="star">★★★★☆</span></td>
+    </tr>
+    <tr>
+      <td>Graphics Design</td>
+      <td><span class="star">★★★★☆</span></td>
+      <td>CSS</td>
+      <td><span class="star">★★★☆☆</span></td>
+    </tr>
+    <tr>
+      <td>Object Oriented Programming</td>
+      <td><span class="star">★★★☆☆</span></td>
+      <td>Javascript</td>
+      <td><span class="star">★★☆☆☆</span></td>
+    </tr>
+    <tr>
+      <td>MySQL</td>
+      <td><span class="star">★★★★☆</span></td>
+      <td>PHP</td>
+      <td><span class="star">★★★☆☆</span></td> 
+    </tr>
+    <tr>
+      <td>SEO</td>
+      <td><span class="star">★★★☆☆</span></td>
+      <td>Python</td>
+      <td><span class="star">★☆☆☆☆</span></td>
+    </tr>
+  </table>
+</div>
+
+<h3><a href="Index.html">Exit</a></h3>
+
+</body>
+</html>
